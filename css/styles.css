@@ -1,0 +1,63 @@
+@font-face {
+	font-family: ChunkFive;
+	src: url(../fonts/chunkfive.otf);
+}
+
+body {
+	background-image: url('../images/white.jpg');
+	background-color: transparent
+}
+
+p {
+	font-family: ChunkFive, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:  2.5em;
+	color: rgb(72, 88, 255);
+	text-align: left;
+}
+
+.bobo {
+	background-color: rgba(0,0,0,.15);
+	margin-left: 10% ;
+	margin-right: 10% ;
+	margin-top: 0%;
+	padding: 5% ;
+}
+
+h1 {
+	font-family: 'Passion One', cursive;
+	font-size: 3.9em;
+	color: rgb(200, 88, 100);
+	text-align: center;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+
+}
+
+h2 { 
+	font-family: Georgia, "Times New Roman", Times. serif;
+	font-size: 2em;
+	text-align: left;
+	
+}
+
+.floatRight{
+	float: right;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.clearIt {
+	clear both;
+}
+
+.myLinks{ 
+	color: rgba(199,50,205,1.0);
+	text-decoration: none;
+}
+
+.myLinks:hover{
+	color:rgba(255,80,105,1.0);
+	font-size: 1.1em;
+}
